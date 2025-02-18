@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -18,3 +19,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+=======
+import { View, Text } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Uygulama Çalışıyor!</Text>
+    </View>
+  );
+} 
+>>>>>>> 0afefa43f2ca4aad6ecdfda88da48c83bfc41aa7

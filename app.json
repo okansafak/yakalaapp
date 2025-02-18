@@ -1,5 +1,6 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "new-project",
     "slug": "new-project",
     "version": "1.0.0",
@@ -26,3 +27,24 @@
     }
   }
 }
+=======
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Uygulama fotoğraflarınıza erişmek için izin istiyor"
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+} 
+>>>>>>> 0afefa43f2ca4aad6ecdfda88da48c83bfc41aa7
